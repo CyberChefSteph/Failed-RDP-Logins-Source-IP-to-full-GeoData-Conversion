@@ -1,7 +1,7 @@
 <h1>Failed RDP Logins : Source IP to full GeoData Conversion</h1>
 
 <h2>Description</h2>
-<b>The Powershell script ( not my own ) in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+<b>The Powershell script in this repository (not my own) is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
 </b>
 <br />
 <br />
