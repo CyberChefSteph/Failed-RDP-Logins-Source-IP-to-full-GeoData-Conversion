@@ -1,9 +1,14 @@
 <h1>Failed RDP Logins : Source IP to full GeoData Conversion</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<b>The Powershell script ( not my own ) in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+</b>
+<br />
+<br />
+I used this script in this project where I setup Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot.
+I was able to observe and collect data from all around the world from the attempted attacks. I used the PowerShell script to
+look up the attackers Geolocation information and plot it on an Azure Sentinel Map.
+<br />
 <br />
 
 
@@ -12,10 +17,11 @@ Project consists of a simple PowerShell script that walks the user through "zero
 - <b>Remote Desktop Connection</b>
 - <b>PowerShell : Extract RDP failed logon logs from Windows Event Viewer</b>
 - <b>Microsoft Azure</b>
+- <b>ipgeolocation.io:</b> IP Address to Geolocation API
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b> (21H2)(Sentinel)
 - <b>VirtualBox Windows 10</b>
 <h2>Project walk-through:</h2>
 
