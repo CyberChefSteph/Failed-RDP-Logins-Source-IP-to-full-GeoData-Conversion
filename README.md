@@ -34,7 +34,7 @@ Sentinel virtual machine successfully deployed:  <br/>
 <img src="https://imgur.com/DvOZl19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Creating a log ananlytics workspace to injest the logs from my newly created VM: <br/>
+Creating a log analytics workspace to injest the logs from my newly created VM: <br/>
 <img src="https://imgur.com/qr8djpt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
